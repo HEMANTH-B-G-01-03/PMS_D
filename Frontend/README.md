@@ -19,3 +19,25 @@ A full-stack MERN project built to efficiently manage projects and teams. Design
 - **Node.js** — Runtime for backend logic  
 - **MIUI** — Stylish and intuitive design system for UI
 
+
+## 📥 How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/PMS.git
+cd PMS
+
+
+cd frontend
+npm install
+npm start
+
+
+cd ../backend
+npm install
+npm run dev
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+PORT=5000
